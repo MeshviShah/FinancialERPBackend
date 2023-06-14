@@ -27,7 +27,7 @@ const router = (app) => {
   app.use("/service", ServiceRouter);
   app.use("/document",auth, DocumentRouter);
   app.use("/client",auth, ClientRouter);
-  app.use("/", AuthRouter);
+  //app.use("/", AuthRouter);
   app.use("/token", TokenRouter);
    app.use("/tender", TenderRouter);
 };
