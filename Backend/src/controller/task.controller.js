@@ -9,7 +9,7 @@ import { resType } from "../response/res.types.js";
 import { getUserByName } from "../service/user.service.js";
 import { queryBuilder } from "../utils/queryBuilder.js";
 import { Types } from "mongoose";
-import { getRoleService } from "../service/Role.service.js";
+import { getRoleService } from "../service/role.service.js";
 import { countTaskService } from "../service/task.service.js";
 const { ObjectId } = Types;
 //Creat Task
