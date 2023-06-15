@@ -4,7 +4,7 @@ import {
   getAllEventService,
   updateEventService,
   deleteEventService,
-} from "../service/Event.service.js";
+} from "../service/event.service.js";
 import { resType } from "../response/res.types.js";
 
 //Creat Event
