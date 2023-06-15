@@ -18,7 +18,7 @@ import {
   CreatTokenService,
   getTokenByTokenService,
 } from "../service/token.service.js";
-import { CreatFirmService } from "../service/Firm.service.js";
+import { CreatFirmService } from "../service/firm.service.js";
 import { startSession } from "mongoose";
 // const id =new  mongoose.Types.ObjectId();
 
