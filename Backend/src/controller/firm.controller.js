@@ -4,7 +4,7 @@ import {
   getAllFirmService,
   updateFirmService,
   deleteFirmService,
-} from "../service/Firm.service.js";
+} from "../service/firm.service.js";
 import { resType } from "../response/res.types.js";
 import { Types } from "mongoose";
 const { ObjectId } = Types;
