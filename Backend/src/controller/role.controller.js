@@ -4,7 +4,7 @@ import {
   getAllRoleService,
   updateRoleService,
   deleteRoleService,
-} from "../service/Role.service.js";
+} from "../service/role.service.js";
 import { resType } from "../response/res.types.js";
 import { Types } from "mongoose";
 const { ObjectId } = Types;
