@@ -4,7 +4,7 @@ import {
   getAllTask_statusService,
   updateTask_statusService,
   deleteTask_statusService,
-} from "../service/Task_status.service.js";
+} from "../service/task_status.service.js";
 import { resType } from "../response/res.types.js";
 
 //Creat Task_status
