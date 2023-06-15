@@ -8,7 +8,7 @@ import {
 } from "../service/document.service.js";
 import { resType } from "../response/res.types.js";
 import { Types } from "mongoose";
-import { getRoleService } from "../service/Role.service.js";
+import { getRoleService } from "../service/role.service.js";
 import { queryBuilder } from "../utils/queryBuilder.js";
 const { ObjectId } = Types;
 // --->>Creat Document
